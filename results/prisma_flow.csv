@@ -1,0 +1,26 @@
+step,n,article
+Records identified from databases,3224,3224
+  primary queries R1-R3,2270,2270
+  complementary query R4,954,954
+Records removed before screening,516,516
+  duplicates within databases,106,106
+  duplicates between databases,274,274
+  duplicates within the R4 batch,94,94
+  R4 records already screened in the primary wave,40,40
+  excluded before screening (E6),2,2
+Records screened,2708,2708
+Records excluded,2452,2452
+  primary wave,1613,1613
+  complementary wave,780,780
+  surveys kept for citation searching only,59,59
+Reports sought for retrieval,256,256
+Reports not retrieved,12,12
+Reports assessed for eligibility,244,244
+Reports excluded,221,221
+Studies included via databases,23,23
+Records identified from other methods,51,51
+Other methods: reports sought,20,20
+Other methods: reports assessed,20,20
+Other methods: reports excluded,16,16
+Other methods: studies included,4,4
+Studies included in review,27,27

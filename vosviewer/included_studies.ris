@@ -1,0 +1,373 @@
+TY  - CONF
+TI  - ReasonAlign: A Prompt-Based Framework for Zero-Shot Schema Alignment Across Data Sources
+AU  - Zhou, Jiutao
+AU  - Zhang, Chenyu
+AU  - Ma, Peirong
+AU  - Qu, Weiguang
+AU  - Kitsuregawa, Masaru
+AU  - Gu, Yanhui
+T2  - 2025 IEEE International Conference on Big Data (BigData)
+PY  - 2025
+DO  - 10.1109/BigData66926.2025.11401798
+ER  - 
+
+TY  - CHAP
+TI  - Augmenting Ontology Alignment by Semantic Embedding and Distant Supervision
+AU  - Chen, Jiaoyan
+AU  - Jiménez-Ruiz, Ernesto
+AU  - Horrocks, Ian
+AU  - Antonyrajah, Denvar
+AU  - Hadian, Ali
+AU  - Lee, Jaehun
+T2  - The Semantic Web
+PY  - 2021
+DO  - 10.1007/978-3-030-77385-4_23
+KW  - Distant Supervision
+KW  - Ontology Alignment
+KW  - Semantic Embedding
+KW  - Siamese Neural Network
+ER  - 
+
+TY  - GEN
+TI  - Neuro-Symbolic Entity Alignment via Variational Inference
+AU  - Chen, Shengyuan
+AU  - Yuan, Zheng
+AU  - Zhang, Qinggang
+AU  - Hua, Wen
+AU  - Cao, Jiannong
+AU  - Huang, Xiao
+PY  - 2025
+DO  - 10.48550/arXiv.2410.04153
+ER  - 
+
+TY  - JOUR
+TI  - DAEOM: A Deep Attentional Embedding Approach for Biomedical Ontology Matching
+AU  - Wu, Jifang
+AU  - Lv, Jianghua
+AU  - Guo, Haoming
+AU  - Ma, Shilong
+T2  - Applied Sciences
+PY  - 2020
+DO  - 10.3390/app10217909
+KW  - final alignment
+KW  - graph attentional network
+KW  - Negative Sampling
+KW  - ontology matching
+KW  - semantic similarity
+ER  - 
+
+TY  - CONF
+TI  - OntoConnect: unsupervised ontology alignment with recursive neural network
+AU  - Chakraborty, Jaydeep
+AU  - Bansal, Srividya K.
+AU  - Virgili, Luca
+AU  - Konar, Krishanu
+AU  - Yaman, Beyza
+T2  - SAC '21: The 36th ACM/SIGAPP Symposium on Applied Computing
+PY  - 2021
+DO  - 10.1145/3412841.3442059
+KW  - LSTM
+KW  - Ontology Schema Alignment
+KW  - Ontology Schema Matching
+KW  - Recursive Neural Network
+KW  - Unsupervised learning
+ER  - 
+
+TY  - GEN
+TI  - Semantic Alignment of Multilingual Knowledge Graphs via Contextualized Vector Projections
+AU  - Kumar, Abhishek
+PY  - 2026
+DO  - 10.48550/arXiv.2601.00814
+KW  - Cross-lingual ontology matching
+KW  - Knowledge graph alignment
+KW  - Multilingual transformers
+KW  - Neuro-symbolic integration
+KW  - Semantic verbalization
+KW  - Vector embeddings
+ER  - 
+
+TY  - JOUR
+TI  - Semantic Annotation of Tabular Data for Machine-to-Machine Interoperability via Neuro-Symbolic Anchoring
+AU  - Mehryar, Shervin
+AU  - Celebi, Remzi
+KW  - Interoperability
+KW  - Neuro-symbolic AI
+KW  - Semantic Annotation
+KW  - Tabular data
+ER  - 
+
+TY  - GEN
+TI  - Schema Matching on Graph: Iterative Graph Exploration for Efficient and Explainable Data Integration
+AU  - Jeon, Mingyu
+AU  - Suh, Jaeyoung
+AU  - Cho, Suwan
+PY  - 2025
+DO  - 10.48550/arXiv.2511.20285
+ER  - 
+
+TY  - GEN
+TI  - Large Language Models as Oracles for Ontology Alignment
+AU  - Lushnei, Sviatoslav
+AU  - Shumskyi, Dmytro
+AU  - Shykula, Severyn
+AU  - Jimenez-Ruiz, Ernesto
+AU  - Garcez, Artur d'Avila
+PY  - 2026
+DO  - 10.48550/arXiv.2508.08500
+KW  - knowledge graph alignment
+KW  - large language models
+KW  - ontology matching
+ER  - 
+
+TY  - GEN
+TI  - BERTMap: A BERT-based Ontology Alignment System
+AU  - He, Yuan
+AU  - Chen, Jiaoyan
+AU  - Antonyrajah, Denvar
+AU  - Horrocks, Ian
+PY  - 2022
+DO  - 10.48550/arXiv.2112.02682
+ER  - 
+
+TY  - JOUR
+TI  - Matching Biomedical Ontologies via a Hybrid Graph Attention Network
+AU  - Wang, Peng
+AU  - Hu, Yunyan
+T2  - Frontiers in Genetics
+PY  - 2022
+DO  - 10.3389/fgene.2022.893409
+KW  - biomedical ontology
+KW  - embedding
+KW  - graph attention network
+KW  - hyperbolic attention
+KW  - ontology matching
+ER  - 
+
+TY  - CONF
+TI  - OntoEA: Ontology-guided Entity Alignment via Joint Knowledge Graph Embedding
+AU  - Xiang, Yuejia
+AU  - Zhang, Ziheng
+AU  - Chen, Jiaoyan
+AU  - Chen, Xi
+AU  - Lin, Zhenxi
+AU  - Zheng, Yefeng
+T2  - Findings of the Association for Computational Linguistics: ACL-IJCNLP 2021
+PY  - 2021
+DO  - 10.18653/v1/2021.findings-acl.96
+ER  - 
+
+TY  - JOUR
+TI  - Combining embedding-based and symbol-based methods for entity alignment
+AU  - Jiang, Tingting
+AU  - Bu, Chenyang
+AU  - Zhu, Yi
+AU  - Wu, Xindong
+T2  - Pattern Recognition
+PY  - 2022
+DO  - 10.1016/j.patcog.2021.108433
+KW  - Entity alignment
+KW  - Knowledge graph embedding
+KW  - String Similarity
+ER  - 
+
+TY  - GEN
+TI  - Ontology Revision based on Pre-trained Language Models
+AU  - Ji, Qiu
+AU  - Qi, Guilin
+AU  - Ye, Yuxin
+AU  - Li, Jiaye
+AU  - Li, Site
+AU  - Ren, Jianjie
+AU  - Lu, Songtao
+PY  - 2023
+DO  - 10.48550/arXiv.2310.18378
+KW  - Inconsistency handling
+KW  - Knowledge reasoning
+KW  - Ontology matching
+KW  - Ontology revision
+KW  - Pre-trained models
+ER  - 
+
+TY  - CHAP
+TI  - SLHCat: Mapping Wikipedia Categories and Lists to DBpedia by Leveraging Semantic, Lexical, and Hierarchical Features
+AU  - Wang, Zhaoyi
+AU  - Zhang, Zhenyang
+AU  - Qin, Jiaxin
+AU  - Iwaihara, Mizuho
+T2  - Leveraging Generative Intelligence in Digital Libraries: Towards Human-Machine Collaboration
+PY  - 2023
+DO  - 10.1007/978-981-99-8085-7_12
+KW  - CaLiGraph
+KW  - DBpedia
+KW  - Distant supervision
+KW  - Knowledge graph
+KW  - ontology alignment
+KW  - Wikipedia categories and lists
+ER  - 
+
+TY  - JOUR
+TI  - Combining FCA-Map with Representation Learning for Aligning Large Biomedical Ontologies
+AU  - Li, Guoxuan
+AU  - Zhang, Songmao
+AU  - Wei, Jiayi
+AU  - Ye, Wenqian
+ER  - 
+
+TY  - JOUR
+TI  - PhenoAlign: A Hybrid Data-Knowledge-Driven Approach for Precisely Aligning Phenotype Information in Medical Texts
+AU  - Yang, Tao
+AU  - Chen, Luming
+AU  - Deng, Lizong
+AU  - Jiang, Taijiao
+T2  - IEEE Journal of Biomedical and Health Informatics
+PY  - 2025
+DO  - 10.1109/JBHI.2025.3529598
+KW  - data-knowledge-driven
+KW  - large language models
+KW  - medical text
+KW  - Phenotype alignment
+KW  - pretraining language model
+ER  - 
+
+TY  - GEN
+TI  - FLORA: Unsupervised Knowledge Graph Alignment by Fuzzy Logic
+AU  - Peng, Yiwen
+AU  - Bonald, Thomas
+AU  - Suchanek, Fabian M.
+PY  - 2025
+DO  - 10.48550/arXiv.2510.20467
+KW  - Entity Alignment
+KW  - Fuzzy logic
+KW  - Holistic Matching
+KW  - Knowledge Graphs
+KW  - Symbolic Reasoning
+ER  - 
+
+TY  - CONF
+TI  - Unsupervised Knowledge Graph Alignment by Probabilistic Reasoning and Semantic Embedding
+AU  - Qi, Zhiyuan
+AU  - Zhang, Ziheng
+AU  - Chen, Jiaoyan
+AU  - Chen, Xi
+AU  - Xiang, Yuejia
+AU  - Zhang, Ningyu
+AU  - Zheng, Yefeng
+T2  - Thirtieth International Joint Conference on Artificial Intelligence {IJCAI-21}
+PY  - 2021
+DO  - 10.24963/ijcai.2021/278
+ER  - 
+
+TY  - CONF
+TI  - NALA: an Effective and Interpretable Entity Alignment Method
+AU  - Xu, Chuanhao
+AU  - Cheng, Jingwei
+AU  - Zhang, Fu
+T2  - Findings of the Association for Computational Linguistics: EMNLP 2024
+PY  - 2024
+DO  - 10.18653/v1/2024.findings-emnlp.806
+ER  - 
+
+TY  - CONF
+TI  - DeepFCA: Matching Biomedical Ontologies Using Formal Concept Analysis Embedding Techniques
+AU  - Li, Guoxuan
+T2  - ICMHI 2020: 2020 4th International Conference on Medical and Health Informatics
+PY  - 2020
+DO  - 10.1145/3418094.3418121
+KW  - Artificial intelligence
+KW  - Biomedical ontology matching
+KW  - Formal concept analysis
+KW  - Word embedding
+ER  - 
+
+TY  - JOUR
+TI  - Rule-based data augmentation for knowledge graph embedding
+AU  - Li, Guangyao
+AU  - Sun, Zequn
+AU  - Qian, Lei
+AU  - Guo, Qiang
+AU  - Hu, Wei
+T2  - AI Open
+PY  - 2021
+DO  - 10.1016/j.aiopen.2021.09.003
+KW  - Data augmentation
+KW  - Knowledge graph embedding
+KW  - Logical rules
+ER  - 
+
+TY  - CONF
+TI  - Deep and Collective Entity Resolution in Parallel
+AU  - Deng, Ting
+AU  - Fan, Wenfei
+AU  - Lu, Ping
+AU  - Luo, Xiaomeng
+AU  - Zhu, Xiaoke
+AU  - An, Wanhe
+T2  - 2022 IEEE 38th International Conference on Data Engineering (ICDE)
+PY  - 2022
+DO  - 10.1109/ICDE53745.2022.00200
+ER  - 
+
+TY  - GEN
+TI  - Entity Alignment with Noisy Annotations from Large Language Models
+AU  - Chen, Shengyuan
+AU  - Zhang, Qinggang
+AU  - Dong, Junnan
+AU  - Hua, Wen
+AU  - Li, Qing
+AU  - Huang, Xiao
+PY  - 2024
+DO  - 10.48550/arXiv.2405.16806
+ER  - 
+
+TY  - CHAP
+TI  - CyberEA: An Efficient Entity Alignment Framework for Cybersecurity Knowledge Graph
+AU  - Huang, Yue
+AU  - Guo, Yongyan
+AU  - Huang, Cheng
+T2  - Security and Privacy in Communication Networks
+PY  - 2025
+DO  - 10.1007/978-3-031-64948-6_3
+KW  - Cybersecurity
+KW  - Entity Alignment
+KW  - Graph Convolutional Network
+KW  - Knowledge Graph
+KW  - Multi-view
+ER  - 
+
+TY  - CONF
+TI  - Graph Embeddings Meet Link Keys Discovery for Entity Matching
+AU  - Jradeh, Chloé Khadija
+AU  - Raoufi, Ensiyeh
+AU  - David, Jérôme
+AU  - Larmande, Pierre
+AU  - Scharffe, François
+AU  - Todorov, Konstantin
+AU  - Trojahn, Cassia
+T2  - WWW '25: The ACM Web Conference 2025
+PY  - 2025
+DO  - 10.1145/3696410.3714581
+KW  - Embedding-based EM
+KW  - Entity matching
+KW  - Graph embeddings
+KW  - Hybrid AI
+KW  - Knowledge graphs
+KW  - Language models
+KW  - Link keys
+KW  - Symbolic EM
+ER  - 
+
+TY  - JOUR
+TI  - HSMGNN Hyperbolic S<sup>2</sup> Rotation Group Multi-Channel Graph Neural Network for Cross-Lingual Entity Alignment
+AU  - Deng, Yu
+AU  - Hou, Shiwang
+AU  - Zhang, Mingyi
+T2  - IEEE Access
+PY  - 2025
+DO  - 10.1109/ACCESS.2025.3624142
+KW  - entity alignment
+KW  - graph neural networks (GNNs)
+KW  - hyperbolic geometry
+KW  - Knowledge graph
+KW  - S2 rotation group
+ER  - 
+

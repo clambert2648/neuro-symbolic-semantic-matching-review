@@ -1,0 +1,4 @@
+stage,Candidate generation,Constraint enforcement,Repair,Explanation,Decision,Total
+N1,5,8,0,0,0,13
+N2,1,2,2,1,8,14
+Total,6,10,2,1,8,27

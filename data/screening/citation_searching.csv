@@ -1,0 +1,52 @@
+record_id,route,found_in,title,authors,year,doi,ta_decision,ta_reason
+SV01,citation searching,Cotovio_2023,Augmenting Ontology Alignment by Semantic Embedding and Distant Supervision,"Chen, Jiménez-Ruiz, Horrocks, Antonyrajah",2021,10.1007/978-3-030-77385-4_23,include,
+SV02,citation searching,Cotovio_2023,Knowledge Graph Alignment Network with Gated Multi-Hop Neighborhood Aggregation,"Sun, Wang, Hu, Chen, Dai, Zhang, Qu",2020,10.1609/aaai.v34i01.5354,include,
+SV03,citation searching,Portisch_2025,Foundational Ontologies Meet Ontology Matching: A Survey,"Trojahn, Vieira, Schmidt, Pease",2021,10.3233/sw-210447,exclude,E5
+SV04,citation searching,Cotovio_2023,Logical Neural Networks,"Riegel, Gray, Luus, Khan, Makondo, Akhalwaya, Qian, Fagin, Barahona, Sharma, Ikbal, Karanam, Neelam, Likhyani, Srivastava",2020,10.48550/arxiv.2006.13155,exclude,E1
+SV05,citation searching,Cheng_2024,"Neural, Symbolic and Neural-Symbolic Reasoning on Knowledge Graphs","Zhang, Chen, Zhang, Ke, Ding",2021,10.1016/j.aiopen.2021.03.001,exclude,E5
+SV06,citation searching,DeLong_2025,Towards Loosely-Coupling Knowledge Graph Embeddings and Ontology-based Reasoning,"Kaoudi, Martinez Lorenzo, Markl",2022,,exclude,E1
+SV07,citation searching,DeLong_2025,Improving Knowledge Graph Embeddings with Ontological Reasoning,"Nitisha Jain, Trung-Kien Tran, Mohamed H. Gad-Elrab, Daria Stepanova",2021,10.1007/978-3-030-88361-4_24,exclude,E1
+SV08,citation searching,DeLong_2025,UniKER: A Unified Framework for Combining Embedding and Definite Horn Rule Reasoning for Knowledge Graph Inference,"Cheng, Yang, Zhang, Sun",2021,10.18653/v1/2021.emnlp-main.769,exclude,E1
+SV09,citation searching,Cheng_2024,RLogic: Recursive Logical Rule Learning from Knowledge Graphs,"Cheng, Liu, Wang, Sun",2022,10.1145/3534678.3539421,exclude,E1
+SV10,citation searching,Cheng_2024,Neural Compositional Rule Learning for Knowledge Graph Reasoning,"Cheng, Ahmed, Sun",2023,10.48550/arxiv.2303.03581,exclude,E1
+SV11,citation searching,Portisch_2025,VeeAlign: A Supervised Deep Learning Approach to Ontology Alignment,"Iyer, Agarwal, Kumar",2020,,include,
+SV12,citation searching,DeLong_2025,Probabilistic Logic Neural Networks for Reasoning,"Qu, Tang",2019,10.48550/arxiv.1906.08495,exclude,E6
+SV13,citation searching,DeLong_2025,Combining Embeddings and Rules for Fact Prediction,"Boschin, Jain, Keretchashvili, Suchanek",2022,10.4230/OASIcs.AIB.2022.4,exclude,E1
+SV14,citation searching,Cheng_2024,Learning Reasoning Strategies in End-to-End Differentiable Proving,"Minervini, Riedel, Stenetorp, Grefenstette",2020,10.3233/faia210359,exclude,E1
+SV15,citation searching,DeLong_2025,Neurosymbolic AI: The 3rd Wave,"d'Avila Garcez, Lamb",2023,10.1007/s10462-023-10448-w,exclude,E4
+SV16,citation searching,Zhang_2024,From Statistical Relational to Neuro-Symbolic Artificial Intelligence,"De Raedt, Dumančić, Manhaeve, Marra",2020,10.24963/ijcai.2020/688,exclude,E5
+SV17,citation searching,Breit_2023,Neural-Symbolic Learning and Reasoning: A Survey and Interpretation,"Besold, d'Avila Garcez, Bader, Bowman",2017,10.48550/arxiv.1711.03902,exclude,E6
+SV18,citation searching,Breit_2023,Neural-Symbolic Integration and the Semantic Web,"Hitzler, Bianchi, Ebrahimi, Sarker",2020,10.3233/sw-190368,exclude,E4
+SV19,citation searching,Breit_2023,Neuro-Symbolic Artificial Intelligence: Current Trends,"Sarker, Zhou, Eberhart, Hitzler",2021,10.3233/AIC-210084,exclude,E5
+SV20,citation searching,DeLong_2025,Neuro-Symbolic Approaches in Artificial Intelligence,"Hitzler, Eberhart, Ebrahimi, Sarker",2022,10.1093/nsr/nwac035,exclude,E5
+SV21,citation searching,Zhang_2024,Logic Tensor Networks: Deep Learning and Logical Reasoning from Data and Knowledge,"Serafini, d'Avila Garcez",2016,10.48550/arxiv.1606.04422,exclude,E6
+SV22,citation searching,DeLong_2025,Graph Neural Networks Meet Neural-Symbolic Computing: A Survey and Perspective,"Lamb, Garcez, Gori, Prates",2020,10.24963/ijcai.2020/670,exclude,E5
+SV23,citation searching,DeLong_2025,Turning 30: New Ideas in Inductive Logic Programming,"Cropper, Dumančić, Muggleton",2020,10.24963/ijcai.2020/673,exclude,E5
+BT01,citation searching,"286, 665",OWL2Vec*: Embedding of OWL Ontologies,"Chen, Hu, Jiménez-Ruiz, Horrocks",2021,10.1007/s10994-021-05997-6,include,
+BT02,citation searching,"169, 211",Concept Similarity in DL ELH with Pretrained Word Embedding,Racharak T.,2021,10.1109/access.2021.3073730,include,
+BT03,citation searching,"330, 1889, 58",Unsupervised KG Alignment by Probabilistic Reasoning and Semantic Embedding,"Qi, Zhang, Chen et al.",2021,10.24963/ijcai.2021/278,include,
+BT04,citation searching,286,Augmenting Ontology Alignment by Semantic Embedding and Distant Supervision,"Chen, Jiménez-Ruiz, Horrocks, Antonyrajah",2021,10.1007/978-3-030-77385-4_23,exclude,duplicate
+BT05,citation searching,7 (survey DeLong_2025),Towards Loosely-Coupling KG Embeddings and Ontology-based Reasoning,"Kaoudi, Martinez Lorenzo, Markl",2022,,exclude,E1
+BT06,citation searching,673,Embedding-Based Approach to Repairing OWL Ontologies,"Ji Q., Li W. et al.",2022,10.3390/app122412655,include,
+BT07,citation searching,673,TGR: Neural-Symbolic Ontological Reasoner for Domain Knowledge Graphs,"Zhu, Liu, Yao et al.",2023,10.1007/s10489-023-04834-8,include,
+BT08,citation searching,665,Contextual Semantic Embeddings for Ontology Subsumption Prediction,"Chen, He, Jiménez-Ruiz et al.",2023,10.1007/s11280-023-01169-9,include,
+BT09,citation searching,665,Language Model Analysis for Ontology Subsumption Inference,"He, Chen, Jiménez-Ruiz et al.",2023,10.18653/v1/2023.findings-acl.213,include,
+BT10,citation searching,665,Box²EL: Concept and Role Box Embeddings for the Description Logic EL++,"Jackermeier, Chen, Horrocks",2023,10.1145/3589334.3645648,include,
+BT11,citation searching,673,Graph-Based Interactive Mapping Revision in DL-Lite,"Weizhuo Li, Qiu Ji, Songmao Zhang, Xuefeng Fu, Guilin Qi",2022,10.1016/j.eswa.2022.118598,include,
+BT12,citation searching,673,Repairing EL Ontologies Using Weakening and Completing,"Li Y., Lambrix P.",2023,10.1007/978-3-031-33455-9_18,include,
+BT13,citation searching,665,ML-Friendly Biomedical Datasets for Equivalence and Subsumption Ontology Matching,"Yuan He, Jiaoyan Chen, Hang Dong, Ernesto Jimenez-Ruiz, Ali Hadian, Ian Horrocks",2023,10.18653/v1/2023.emnlp-main.879,include,
+BT14,citation searching,58,"LightEA: Scalable, Interpretable Entity Alignment via Label Propagation",Mao X. et al.,2022,10.18653/v1/2022.emnlp-main.52,include,
+BT15,citation searching,58,Neural Compositional Rule Learning for Knowledge Graph Reasoning,Cheng K. et al.,2023,10.48550/arxiv.2303.03581,exclude,E1
+BT16,citation searching,1889,NALA: Effective and Interpretable Entity Alignment,Xu C. et al.,2024,10.18653/v1/2024.findings-emnlp.806,include,
+BT17,citation searching,121,"Neural, Symbolic and Neural-Symbolic Reasoning on Knowledge Graphs","Zhang J., Chen B. et al.",2021,10.1016/j.aiopen.2021.03.001,exclude,E5
+BT18,citation searching,121,Modular Design Patterns for Hybrid Learning and Reasoning Systems,van Bekkum M. et al.,2021,10.1007/s10489-021-02394-3,exclude,E4
+BT19,citation searching,200,Neuro-Symbolic Approaches in Artificial Intelligence,Hitzler P. et al.,2022,10.1093/nsr/nwac035,exclude,E5
+BT20,citation searching,200,Neuro-Symbolic Artificial Intelligence: Current Trends,"Sarker M.K., Zhou, Eberhart, Hitzler",2021,10.3233/AIC-210084,exclude,E5
+BT21,citation searching,1170,Survey on Neuro-Symbolic Computing,"Wang W., Yang Y., Wu F.",2022,10.1007/s10462-023-10448-w,exclude,E5
+BT22,citation searching,200,"Neurosymbolic AI — Why, What, and How","Sheth A., Roy K., Gaur M.",2023,10.48550/arxiv.2305.00813,exclude,E4
+BT23,citation searching,121,Neuro-Symbolic AI for Reasoning on Graph Structures: A Survey,DeLong L.N. et al.,2023,10.1109/tnnls.2024.3420218,exclude,E5
+BT24,citation searching,211,Logic Explained Networks,Ciravegna G. et al.,2023,10.1016/j.artint.2022.103822,include,
+BT25,citation searching,474,Background Knowledge in Ontology Matching: A Survey,Portisch J. et al.,2024,10.3233/sw-223085,exclude,E5
+BT26,citation searching,665,mOWL: Python Library for Machine Learning with Biomedical Ontologies,Zhapa-Camacho F. et al.,2023,10.1093/bioinformatics/btac811,include,
+BT27,citation searching,200,Towards a Neuro-Symbolic Cycle for Human-Centered Explainability,Mileo A.,2024,10.3233/nai-240740,include,
+1889,expert recommendation,recommended by the second author,FLORA: Unsupervised Knowledge Graph Alignment by Fuzzy Logic,"Peng, Y.; Bonald, T.; Suchanek, F.M.",2025,10.48550/arXiv.2510.20467,include,

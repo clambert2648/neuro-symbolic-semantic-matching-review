@@ -1,0 +1,28 @@
+system,bibtex_key,task_family,kautz,strategy,stage,function
+NeuSymEA,Chen2024neurosymbolic,EA/KG,V,Logic,N2*,Decision
+FLORA,Peng2025flora,EA/KG,II,Logic,N2,Decision
+PRASE,Qi2021prase,EA/KG,III,Logic,N2*,Decision
+NALA,Xu2024nala,EA/KG,III,Logic,N2,Decision
+OntoEA,Xiang2021ontoea,EA/KG,V,Logic,N1,Constr. enforcement
+ESEA,Jiang2022combining,EA/KG,V,Logic,N1,Constr. enforcement
+CIDER-LM,Kumar2025semantic,EA/KG,IV,Logic,N1*,Constr. enforcement
+PhenoAlign,Yang2025phenoalign,EA/KG,III,Logic,N2,Decision
+KnowAug,Li2021knowaug,EA/KG,IV,Logic,N1,Cand. generation
+LLM4EA,Chen2024llm4ea,EA/KG,IV,Logic,N1,Constr. enforcement
+CyberEA,Huang2025cyberea,EA/KG,IV,Logic,N1,Cand. generation
+HSMGNN,Deng2025hsmgnn,EA/KG,V,Logic,N1,Constr. enforcement
+SLHCat,Wang2023slhcat,EA/KG,IV,Structure,N1,Cand. generation
+BERTMap,He2021bertmap,Ontology,III,Logic,N2,Repair
+DAEOM,Wu2020daeom,Ontology,IV,Structure,N1,Constr. enforcement
+BioHAN,Wang2022matching,Ontology,IV,Logic,N1,Cand. generation
+OntoConnect,Chakraborty2021ontoconnect,Ontology,IV,Logic,N1,Cand. generation
+DeepFCA,Li2020deepfca,Ontology,V,Logic,N1*,Constr. enforcement
+FCA-Map + SBERT,Li2021fcamap,Ontology,III,Logic,N2*,Constr. enforcement
+LogMap/AML + SiamNN,Chen2021augmenting,Ontology,III,Logic,N2*,Constr. enforcement
+LogMap + LLM oracles,Lushnei2025oracles,Ontology,II,Logic,N2,Decision
+PLM ontology revision,Ji2023ontology,Ontology,II,Logic,N2,Repair
+SMoG,Jeon2025schema,Schema,III,Structure,N2,Cand. generation
+ReasonAlign,Zhou2025reasonalign,Schema,II,Logic,N2,Decision
+MUT2KG,Mehryar2023semantic,Schema,V,Logic,N1,Constr. enforcement
+DMatch,Deng2022collective,ER,II,Logic,N2,Decision
+HMatch,Jradeh2025linkkeys,ER,III,Logic,N2,Explanation

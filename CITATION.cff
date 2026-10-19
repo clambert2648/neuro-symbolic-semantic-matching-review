@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use these data or scripts, please cite the article."
+title: "Neuro-symbolic semantic matching of heterogeneous data: systematic review data and code"
+authors:
+  - family-names: Lambert-Tremblay
+    given-names: Constance
+    affiliation: "Université du Québec en Outaouais"
+    email: lamc44@uqo.ca
+  - family-names: Tajeuna
+    given-names: Etienne Gael
+    affiliation: "Université du Québec en Outaouais"
+license: MIT
+preferred-citation:
+  type: article
+  title: "Neuro-Symbolic Semantic Matching of Heterogeneous Data: A Systematic Review of Emerging Architectures, Explainability, and Human Validation"
+  authors:
+    - family-names: Lambert-Tremblay
+      given-names: Constance
+    - family-names: Tajeuna
+      given-names: Etienne Gael
+  status: submitted
+  year: 2026

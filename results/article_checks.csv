@@ -1,0 +1,110 @@
+section,claim,article,computed,match
+fig:prisma,Records identified from databases,3224,3224,yes
+fig:prisma,primary queries R1-R3,2270,2270,yes
+fig:prisma,complementary query R4,954,954,yes
+fig:prisma,Records removed before screening,516,516,yes
+fig:prisma,duplicates within databases,106,106,yes
+fig:prisma,duplicates between databases,274,274,yes
+fig:prisma,duplicates within the R4 batch,94,94,yes
+fig:prisma,R4 records already screened in the primary wave,40,40,yes
+fig:prisma,excluded before screening (E6),2,2,yes
+fig:prisma,Records screened,2708,2708,yes
+fig:prisma,Records excluded,2452,2452,yes
+fig:prisma,primary wave,1613,1613,yes
+fig:prisma,complementary wave,780,780,yes
+fig:prisma,surveys kept for citation searching only,59,59,yes
+fig:prisma,Reports sought for retrieval,256,256,yes
+fig:prisma,Reports not retrieved,12,12,yes
+fig:prisma,Reports assessed for eligibility,244,244,yes
+fig:prisma,Reports excluded,221,221,yes
+fig:prisma,Studies included via databases,23,23,yes
+fig:prisma,Records identified from other methods,51,51,yes
+fig:prisma,Other methods: reports sought,20,20,yes
+fig:prisma,Other methods: reports assessed,20,20,yes
+fig:prisma,Other methods: reports excluded,16,16,yes
+fig:prisma,Other methods: studies included,4,4,yes
+fig:prisma,Studies included in review,27,27,yes
+3.3,studies whose stage and function were coded,27,27,yes
+4.1,task family: Entity and knowledge-graph alignment,13,13,yes
+4.1,task family: Ontology matching and revision,9,9,yes
+4.1,task family: Schema matching and data harmonization,3,3,yes
+4.1,task family: Entity resolution and record matching,2,2,yes
+3.4,studies published in 2021 (assessed version),7,7,yes
+3.4,studies published in 2025 (assessed version),9,9,yes
+3.4,venue type at extraction: conference,13,13,yes
+3.4,venue type at extraction: preprint,8,8,yes
+3.4,venue type at extraction: journal,6,6,yes
+fig:included-years,provenance: database search incl. expert recommendation,16,16,yes
+fig:included-years,provenance: citation searching,3,3,yes
+fig:included-years,provenance: complementary search,8,8,yes
+4.2.1,Kautz Type II,5,5,yes
+4.2.1,Kautz Type III,8,8,yes
+4.2.1,Kautz Type IV,8,8,yes
+4.2.1,Kautz Type V,6,6,yes
+4.2.1,Kautz Type I,0,0,yes
+4.2.1,Kautz Type VI,0,0,yes
+4.2.1,logic-based strategy,24,24,yes
+4.2.1,structure-based strategy,3,3,yes
+4.2.1,Kautz types of structure-based studies,"III, IV","III, IV",yes
+4.2.1,Kautz types of logic-based studies,"II, III, IV, V","II, III, IV, V",yes
+4.2.2,N2 (inference) dominant,14,14,yes
+4.2.2,N1 (training or preprocessing) dominant,13,13,yes
+4.2.2,N2 share (%),52,52,yes
+4.2.2,mixed-stage studies,6,6,yes
+4.2.2,"mixed-stage, N2-dominant",4,4,yes
+4.2.2,"mixed-stage, N1-dominant",2,2,yes
+4.2.2,sensitivity (DeepFCA to N2): N1 / N2,12 / 15,12 / 15,yes
+Table 6,N1 by function,"[5, 8, 0, 0, 0, 13]","[5, 8, 0, 0, 0, 13]",yes
+Table 6,N2 by function,"[1, 2, 2, 1, 8, 14]","[1, 2, 2, 1, 8, 14]",yes
+Table 6,Total by function,"[6, 10, 2, 1, 8, 27]","[6, 10, 2, 1, 8, 27]",yes
+4.2.3,decision-dominant systems by Kautz type,"II: 4, III: 3, V: 1","II: 4, III: 3, V: 1",yes
+4.2.3,functions covered by Type III systems,5,5,yes
+4.2.4,studies reporting an ablation or component variant,20,20,yes
+4.2.4,"of these, with a control switching off the dominant symbolic operation",11,11,yes
+4.3.1,explanation mode: native,5,5,yes
+4.3.1,explanation mode: trace,3,3,yes
+4.3.1,explanation mode: score-only,1,1,yes
+4.3.1,explanation mode: none,18,18,yes
+4.3.1,studies exposing a pair-level justification that act at inference,8,8,yes
+4.3.1,...the only training-stage case,KnowAug,KnowAug,yes
+4.3.2,explanation evaluation: none,20,20,yes
+4.3.2,explanation evaluation: example,4,4,yes
+4.3.2,explanation evaluation: quantitative proxy,3,3,yes
+4.3.2,explanation evaluation: user study,0,0,yes
+4.3.3,studies with an implemented real-expert HITL loop,0,0,yes
+4.3.3,studies reporting a human-effort measure,0,0,yes
+4.3,"negative audit, 'expert_feedback_loop' found",0,0,yes
+4.3,"negative audit, 'explanation_user_study' found",0,0,yes
+4.3,"negative audit, 'human_effort_measure' found",0,0,yes
+4.4.1,EA/KG alignment or ontology matching/revision,22,22,yes
+4.4.2,benchmark multilinguality,12,12,yes
+4.4.2,not evaluated cross-lingually,15,15,yes
+4.4.2,operational multilinguality,0,0,yes
+4.4.3,studies operationalising measurement information,"PhenoAlign, ReasonAlign","PhenoAlign, ReasonAlign",yes
+Table A.1,NeuSymEA,"('EA/KG', 'V', 'Logic', 'N2*', 'Decision')","('EA/KG', 'V', 'Logic', 'N2*', 'Decision')",yes
+Table A.1,FLORA,"('EA/KG', 'II', 'Logic', 'N2', 'Decision')","('EA/KG', 'II', 'Logic', 'N2', 'Decision')",yes
+Table A.1,PRASE,"('EA/KG', 'III', 'Logic', 'N2*', 'Decision')","('EA/KG', 'III', 'Logic', 'N2*', 'Decision')",yes
+Table A.1,NALA,"('EA/KG', 'III', 'Logic', 'N2', 'Decision')","('EA/KG', 'III', 'Logic', 'N2', 'Decision')",yes
+Table A.1,OntoEA,"('EA/KG', 'V', 'Logic', 'N1', 'Constr. enforcement')","('EA/KG', 'V', 'Logic', 'N1', 'Constr. enforcement')",yes
+Table A.1,ESEA,"('EA/KG', 'V', 'Logic', 'N1', 'Constr. enforcement')","('EA/KG', 'V', 'Logic', 'N1', 'Constr. enforcement')",yes
+Table A.1,CIDER-LM,"('EA/KG', 'IV', 'Logic', 'N1*', 'Constr. enforcement')","('EA/KG', 'IV', 'Logic', 'N1*', 'Constr. enforcement')",yes
+Table A.1,PhenoAlign,"('EA/KG', 'III', 'Logic', 'N2', 'Decision')","('EA/KG', 'III', 'Logic', 'N2', 'Decision')",yes
+Table A.1,KnowAug,"('EA/KG', 'IV', 'Logic', 'N1', 'Cand. generation')","('EA/KG', 'IV', 'Logic', 'N1', 'Cand. generation')",yes
+Table A.1,LLM4EA,"('EA/KG', 'IV', 'Logic', 'N1', 'Constr. enforcement')","('EA/KG', 'IV', 'Logic', 'N1', 'Constr. enforcement')",yes
+Table A.1,CyberEA,"('EA/KG', 'IV', 'Logic', 'N1', 'Cand. generation')","('EA/KG', 'IV', 'Logic', 'N1', 'Cand. generation')",yes
+Table A.1,HSMGNN,"('EA/KG', 'V', 'Logic', 'N1', 'Constr. enforcement')","('EA/KG', 'V', 'Logic', 'N1', 'Constr. enforcement')",yes
+Table A.1,SLHCat,"('EA/KG', 'IV', 'Structure', 'N1', 'Cand. generation')","('EA/KG', 'IV', 'Structure', 'N1', 'Cand. generation')",yes
+Table A.1,BERTMap,"('Ontology', 'III', 'Logic', 'N2', 'Repair')","('Ontology', 'III', 'Logic', 'N2', 'Repair')",yes
+Table A.1,DAEOM,"('Ontology', 'IV', 'Structure', 'N1', 'Constr. enforcement')","('Ontology', 'IV', 'Structure', 'N1', 'Constr. enforcement')",yes
+Table A.1,BioHAN,"('Ontology', 'IV', 'Logic', 'N1', 'Cand. generation')","('Ontology', 'IV', 'Logic', 'N1', 'Cand. generation')",yes
+Table A.1,OntoConnect,"('Ontology', 'IV', 'Logic', 'N1', 'Cand. generation')","('Ontology', 'IV', 'Logic', 'N1', 'Cand. generation')",yes
+Table A.1,DeepFCA,"('Ontology', 'V', 'Logic', 'N1*', 'Constr. enforcement')","('Ontology', 'V', 'Logic', 'N1*', 'Constr. enforcement')",yes
+Table A.1,FCA-Map + SBERT,"('Ontology', 'III', 'Logic', 'N2*', 'Constr. enforcement')","('Ontology', 'III', 'Logic', 'N2*', 'Constr. enforcement')",yes
+Table A.1,LogMap/AML + SiamNN,"('Ontology', 'III', 'Logic', 'N2*', 'Constr. enforcement')","('Ontology', 'III', 'Logic', 'N2*', 'Constr. enforcement')",yes
+Table A.1,LogMap + LLM oracles,"('Ontology', 'II', 'Logic', 'N2', 'Decision')","('Ontology', 'II', 'Logic', 'N2', 'Decision')",yes
+Table A.1,PLM ontology revision,"('Ontology', 'II', 'Logic', 'N2', 'Repair')","('Ontology', 'II', 'Logic', 'N2', 'Repair')",yes
+Table A.1,SMoG,"('Schema', 'III', 'Structure', 'N2', 'Cand. generation')","('Schema', 'III', 'Structure', 'N2', 'Cand. generation')",yes
+Table A.1,ReasonAlign,"('Schema', 'II', 'Logic', 'N2', 'Decision')","('Schema', 'II', 'Logic', 'N2', 'Decision')",yes
+Table A.1,MUT2KG,"('Schema', 'V', 'Logic', 'N1', 'Constr. enforcement')","('Schema', 'V', 'Logic', 'N1', 'Constr. enforcement')",yes
+Table A.1,DMatch,"('ER', 'II', 'Logic', 'N2', 'Decision')","('ER', 'II', 'Logic', 'N2', 'Decision')",yes
+Table A.1,HMatch,"('ER', 'III', 'Logic', 'N2', 'Explanation')","('ER', 'III', 'Logic', 'N2', 'Explanation')",yes

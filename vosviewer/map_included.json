@@ -1,0 +1,258 @@
+﻿{
+	"network": {
+		"items": [
+			{
+				"id": 8,
+				"label": "distant supervision",
+				"x": 0.5531,
+				"y": 0.3056,
+				"cluster": 3,
+				"weights": {
+					"Links": 2.0000,
+					"Total link strength": 3.0000,
+					"Occurrences": 2.0000
+				},
+				"scores": {
+					"Avg. pub. year": 2022.0000
+				}
+			},
+			{
+				"id": 9,
+				"label": "embedding",
+				"x": -0.8899,
+				"y": -0.0171,
+				"cluster": 1,
+				"weights": {
+					"Links": 4.0000,
+					"Total link strength": 5.0000,
+					"Occurrences": 2.0000
+				},
+				"scores": {
+					"Avg. pub. year": 2024.0000
+				}
+			},
+			{
+				"id": 11,
+				"label": "entity alignment",
+				"x": 1.0287,
+				"y": -0.1296,
+				"cluster": 2,
+				"weights": {
+					"Links": 2.0000,
+					"Total link strength": 4.0000,
+					"Occurrences": 4.0000
+				},
+				"scores": {
+					"Avg. pub. year": 2024.2500
+				}
+			},
+			{
+				"id": 16,
+				"label": "graph attention network",
+				"x": -0.8991,
+				"y": 0.2339,
+				"cluster": 1,
+				"weights": {
+					"Links": 2.0000,
+					"Total link strength": 3.0000,
+					"Occurrences": 2.0000
+				},
+				"scores": {
+					"Avg. pub. year": 2021.0000
+				}
+			},
+			{
+				"id": 26,
+				"label": "knowledge graph",
+				"x": 0.6506,
+				"y": -0.0155,
+				"cluster": 2,
+				"weights": {
+					"Links": 4.0000,
+					"Total link strength": 6.0000,
+					"Occurrences": 5.0000
+				},
+				"scores": {
+					"Avg. pub. year": 2024.6000
+				}
+			},
+			{
+				"id": 27,
+				"label": "knowledge graph alignment",
+				"x": -0.5374,
+				"y": -0.1961,
+				"cluster": 1,
+				"weights": {
+					"Links": 4.0000,
+					"Total link strength": 5.0000,
+					"Occurrences": 2.0000
+				},
+				"scores": {
+					"Avg. pub. year": 2026.0000
+				}
+			},
+			{
+				"id": 28,
+				"label": "knowledge graph embedding",
+				"x": 1.1870,
+				"y": -0.1749,
+				"cluster": 2,
+				"weights": {
+					"Links": 1.0000,
+					"Total link strength": 1.0000,
+					"Occurrences": 2.0000
+				},
+				"scores": {
+					"Avg. pub. year": 2021.5000
+				}
+			},
+			{
+				"id": 30,
+				"label": "large language models",
+				"x": -0.0873,
+				"y": -0.1218,
+				"cluster": 4,
+				"weights": {
+					"Links": 3.0000,
+					"Total link strength": 3.0000,
+					"Occurrences": 3.0000
+				},
+				"scores": {
+					"Avg. pub. year": 2025.3333
+				}
+			},
+			{
+				"id": 38,
+				"label": "neuro-symbolic ai",
+				"x": -0.8217,
+				"y": -0.2391,
+				"cluster": 1,
+				"weights": {
+					"Links": 3.0000,
+					"Total link strength": 3.0000,
+					"Occurrences": 2.0000
+				},
+				"scores": {
+					"Avg. pub. year": 2026.0000
+				}
+			},
+			{
+				"id": 39,
+				"label": "ontology alignment",
+				"x": 0.3839,
+				"y": 0.2793,
+				"cluster": 3,
+				"weights": {
+					"Links": 3.0000,
+					"Total link strength": 4.0000,
+					"Occurrences": 3.0000
+				},
+				"scores": {
+					"Avg. pub. year": 2021.6667
+				}
+			},
+			{
+				"id": 40,
+				"label": "ontology matching",
+				"x": -0.5678,
+				"y": 0.0753,
+				"cluster": 1,
+				"weights": {
+					"Links": 6.0000,
+					"Total link strength": 9.0000,
+					"Occurrences": 7.0000
+				},
+				"scores": {
+					"Avg. pub. year": 2022.5714
+				}
+			}
+		],
+		"links": [
+			{
+				"source_id": 8,
+				"target_id": 26,
+				"strength": 1.0000
+			},
+			{
+				"source_id": 8,
+				"target_id": 39,
+				"strength": 2.0000
+			},
+			{
+				"source_id": 9,
+				"target_id": 16,
+				"strength": 1.0000
+			},
+			{
+				"source_id": 9,
+				"target_id": 27,
+				"strength": 1.0000
+			},
+			{
+				"source_id": 9,
+				"target_id": 38,
+				"strength": 1.0000
+			},
+			{
+				"source_id": 9,
+				"target_id": 40,
+				"strength": 2.0000
+			},
+			{
+				"source_id": 11,
+				"target_id": 26,
+				"strength": 3.0000
+			},
+			{
+				"source_id": 11,
+				"target_id": 28,
+				"strength": 1.0000
+			},
+			{
+				"source_id": 16,
+				"target_id": 40,
+				"strength": 2.0000
+			},
+			{
+				"source_id": 26,
+				"target_id": 30,
+				"strength": 1.0000
+			},
+			{
+				"source_id": 26,
+				"target_id": 39,
+				"strength": 1.0000
+			},
+			{
+				"source_id": 27,
+				"target_id": 30,
+				"strength": 1.0000
+			},
+			{
+				"source_id": 27,
+				"target_id": 38,
+				"strength": 1.0000
+			},
+			{
+				"source_id": 27,
+				"target_id": 40,
+				"strength": 2.0000
+			},
+			{
+				"source_id": 30,
+				"target_id": 40,
+				"strength": 1.0000
+			},
+			{
+				"source_id": 38,
+				"target_id": 40,
+				"strength": 1.0000
+			},
+			{
+				"source_id": 39,
+				"target_id": 40,
+				"strength": 1.0000
+			}
+		]
+	}
+}

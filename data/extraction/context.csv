@@ -1,0 +1,28 @@
+study_id,system,task_family,domain,multilingual_setting,languages,benchmarks,n_sources,heterogeneity_terminological,heterogeneity_structural,heterogeneity_linguistic,heterogeneity_schematic,heterogeneity_measurement,knowledge_source,code_available,code_url,data_available
+058,NeuSymEA,Entity and knowledge-graph alignment,general (encyclopedic KGs),benchmark,"en, zh, ja, fr, de","DBP15K (ZH-EN, JA-EN, FR-EN); OpenEA; DBP1M",2,yes,yes,yes,no,no,none,yes,https://github.com/chensyCN/NeuSymEA-NeurIPS25,yes
+1889,FLORA,Entity and knowledge-graph alignment,general (encyclopedic KGs),benchmark,"zh, ja, fr, en",DBP15K; D-W-100K; other EA/KG benchmarks,2,yes,yes,yes,no,no,none,yes,https://github.com/dig-team/FLORA,yes
+BT03,PRASE,Entity and knowledge-graph alignment,general + medical (industrial),benchmark,"en, zh","D-W-15K/100K, D-Y-100K (EN); MED-BBK-9K (ZH, industrial)",2,yes,yes,yes,no,no,none,not documented,,partial
+BT16,NALA,Entity and knowledge-graph alignment,general (encyclopedic KGs),benchmark,"zh, ja, fr, en",DBP15K (ZH/JA/FR-EN),2,yes,yes,yes,no,no,Other,yes,https://github.com/13998151318/NALA,yes
+330,OntoEA,Entity and knowledge-graph alignment,general (encyclopedic KGs) + industrial medical,benchmark,"en, fr, de, zh",DBpedia EN-FR/EN-DE; D-W; industrial medical benchmark,2,yes,yes,yes,no,no,none,not documented,,partial
+379,ESEA,Entity and knowledge-graph alignment,general (encyclopedic KGs),benchmark,"zh, ja, fr, en",DBP15K,2,yes,yes,yes,no,no,none,not documented,,yes
+110,CIDER-LM,Entity and knowledge-graph alignment,general (multilingual KGs),benchmark,multiple (cross-lingual pairs),multilingual alignment benchmarks,2,yes,yes,yes,no,no,Pre-trained neural,not documented,,not documented
+1170,PhenoAlign,Entity and knowledge-graph alignment,"biomedical (phenotypes, EHR)",none,"zh, en",EHR texts and clinical guidelines; ZH-EN term pairs,2,yes,yes,yes,no,yes,Lexical-taxonomic,yes,https://github.com/ZEDW/PhenoAlign,partial
+R4-10,KnowAug,Entity and knowledge-graph alignment,general (encyclopedic KGs),benchmark,"zh, ja, fr, en",DBP15K (EA); link-prediction benchmarks,2,yes,yes,yes,no,no,none,not documented,,yes
+R4-21,LLM4EA,Entity and knowledge-graph alignment,general (encyclopedic KGs),benchmark,"en, fr, de","OpenEA: EN-FR-15K, EN-DE-15K, D-W-15K, D-Y-15K",2,yes,yes,yes,no,no,Pre-trained neural,yes,https://github.com/chensyCN/llm4ea_official,yes
+R4-26,CyberEA,Entity and knowledge-graph alignment,cybersecurity,none,en,cybersecurity KGs built by the authors,2,yes,yes,no,no,no,none,not documented,,partial
+R4-28,HSMGNN,Entity and knowledge-graph alignment,general (encyclopedic KGs),benchmark,"zh, ja, fr, en",DBP15K (ZH/JA/FR-EN); DWY100K,2,yes,yes,yes,no,no,none,not documented,,yes
+828,SLHCat,Entity and knowledge-graph alignment,general (Wikipedia/DBpedia),none,en,"CaLiGraph-DBpedia (3,000 annotated pairs)",2,yes,yes,no,no,no,Hybrid,not documented,,partial
+286,BERTMap,Ontology matching and revision,biomedical,none,en,"FMA-SNOMED, FMA-NCI (OAEI LargeBio)",2,yes,yes,no,no,no,Pre-trained neural,not documented,,yes
+079,DAEOM,Ontology matching and revision,biomedical,none,en,OAEI biomedical tasks (FMA-NCI and others),2,yes,yes,no,no,no,none,not documented,,yes
+315,BioHAN,Ontology matching and revision,biomedical,none,en,OAEI biomedical ontologies,2,yes,yes,no,no,no,Domain ontology-KG,not documented,,yes
+093,OntoConnect,Ontology matching and revision,general (OAEI multi-domain),none,en,OAEI ontology pairs (Anatomy and others),2,yes,yes,no,no,no,Pre-trained neural,not documented,,yes
+R4-03,DeepFCA,Ontology matching and revision,biomedical,none,en,OAEI Anatomy (mouse-NCI),2,yes,yes,no,no,no,Pre-trained neural,not documented,,yes
+871,FCA-Map + SBERT,Ontology matching and revision,biomedical,none,en,OAEI LargeBio (FMA/SNOMED/NCI); Phenotype,2,yes,yes,no,no,no,Pre-trained neural,not documented,,yes
+SV01,LogMap/AML + SiamNN,Ontology matching and revision,food + general (OAEI conference),none,en,HeLiS-FoodOn; OAEI conference track,2,yes,yes,no,no,no,Pre-trained neural,not documented,,partial
+282,LogMap + LLM oracles,Ontology matching and revision,biomedical,none,en,"OAEI anatomy, largebio, bio-ml (9 tasks)",2,yes,yes,no,no,no,Pre-trained neural,yes,https://github.com/city-artificial-intelligence/logmap-llm,yes
+673,PLM ontology revision,Ontology matching and revision,general (ontologies),none,en,incoherent ontology pairs (revision benchmark),2,yes,yes,no,no,no,Pre-trained neural,not documented,,not documented
+137,SMoG,Schema matching and data harmonization,medical (EHR schemas) + general,none,en,MIMIC/CMS to OMOP (medical schemas); external KGs,2,yes,yes,no,yes,no,Domain ontology-KG,not documented,,partial
+R4-36,ReasonAlign,Schema matching and data harmonization,enterprise/government (multi-source schemas),benchmark,"en, zh (CN–US)","DBLP-Scholar-ACM; academic, e-commerce and government benchmarks",3,yes,no,yes,yes,yes,Pre-trained neural,not documented,,not documented
+121,MUT2KG,Schema matching and data harmonization,general (tabular data),none,en,"SemTab 2023 (Wikidata tables; Schema.org, DBpedia)",2,yes,yes,no,yes,not documented,Domain ontology-KG,not documented,,yes
+R4-12,DMatch,Entity resolution and record matching,enterprise (relational ER),none,en,"TPCH, TFACC, Songs, Movie (entity resolution)",2,yes,no,no,yes,no,none,not documented,,partial
+R4-27,HMatch,Entity resolution and record matching,general (encyclopedic and fandom KGs),benchmark,"en, fr",DBpedia EN-FR; memory-alpha-stexpanded,2,yes,yes,yes,no,no,none,yes,https://github.com/DACE-DL/HMatch/,yes

@@ -1,0 +1,23 @@
+step,n
+scopus records,1219
+scopus after within-database deduplication,1159
+ieee records,594
+ieee after within-database deduplication,555
+acm records,268
+acm after within-database deduplication,263
+arxiv records,189
+arxiv after within-database deduplication,187
+records identified,2270
+within-database duplicates,106
+between-database duplicates,274
+removed before screening (E6),2
+records screened,1888
+R4 scopus records,245
+R4 ieee records,335
+R4 acm records,211
+R4 arxiv records,163
+R4 records identified,954
+R4 duplicates within the batch,94
+R4 records already screened,40
+R4 records screened,820
+total records screened,2708

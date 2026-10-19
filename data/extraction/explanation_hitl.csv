@@ -1,0 +1,28 @@
+study_id,system,explanation_mode,explanation_artifact,explanation_target,explanation_evaluation,hitl_present,feedback_changes_output,human_effort_reported,evidence
+058,NeuSymEA,native,weighted supporting rule paths,pair,quantitative proxy,no,no,no,The explainer reconstructs supporting rule paths and confidence scores for aligned and misaligned pairs.
+1889,FLORA,native,highest-firing fuzzy rule with contributing relations and entities,pair,example,no,no,no,The highest-firing fuzzy rule is presented as the explanation for an aligned pair.
+BT03,PRASE,score-only,mapping probabilities of the PR module,final correspondences,none,no,no,no,The PR module infers mappings with probabilities (functionality-based); no justification beyond the scores.
+BT16,NALA,native,evidence log with premises and inference paths,mapping,example,no,no,no,NALA records the premises and inference steps supporting each alignment conclusion.
+330,OntoEA,none,,,none,no,no,no,Class constraints are part of the loss; output = ranked alignments.
+379,ESEA,none,,,none,no,no,no,Internal symbolic module (rule grounding); no justification exposed.
+110,CIDER-LM,none,,,none,no,no,no,"Explainability, confidence scoring and human-in-the-loop validation are proposed as future work."
+1170,PhenoAlign,none,,,none,no,no,no,Rule- and PLM-based alignment; output = semantic relation categories without exposed justification.
+R4-10,KnowAug,trace,mined rules and readable groundings,"augmented triples (training stage), not matching decisions",example,no,no,no,"""The mined rules, rule groundings, and triple scores can help users understand the augmented triples"" (pp. 1-2); example rules are shown."
+R4-21,LLM4EA,none,,,none,no,no,no,Internal probabilistic label refiner; no artifact exposed.
+R4-26,CyberEA,none,,,none,no,no,no,Similarity interaction and entity typing; no artifact.
+R4-28,HSMGNN,none,,,none,no,no,no,AMIE+ rules in the training loss; nothing exposed at inference.
+828,SLHCat,none,,,none,no,no,no,No pair-level justification is exposed.
+286,BERTMap,none,,,none,no,no,no,"BERTMap outputs mapping scores; extension and repair are internal, no justification is exposed."
+079,DAEOM,none,,,none,no,no,no,Attentional embeddings and stable marriage; no artifact.
+315,BioHAN,none,,,none,no,no,no,Axiom-based enrichment followed by hyperbolic attention; no artifact.
+093,OntoConnect,none,,,none,no,no,no,Meta-similarity and threshold; no justification exposed.
+R4-03,DeepFCA,none,,,none,no,no,no,Formal contexts are used internally for training; output via stable marriage.
+871,FCA-Map + SBERT,none,,,none,no,no,no,The lattice validates candidates internally; nothing is exposed.
+SV01,LogMap/AML + SiamNN,none,,,none,no,no,no,Disjointness/subsumption filtering is internal; output = mappings and Siamese-network scores.
+282,LogMap + LLM oracles,none,,,none,no,no,no,The experiments use LLM or simulated oracles; human evaluation is identified as missing work.
+673,PLM ontology revision,trace,conflict sets (R-MIPS) and axiom-removal diagnoses,repair operations,none,no,no,no,R-MIPS locate the incoherence and justify the removed axioms; the explanation itself is not evaluated.
+137,SMoG,trace,SPARQL exploration path; accumulated knowledge triples,pair,quantitative proxy,no,no,no,SMoG explicitly generates human-verifiable 1-hop query exploration paths. The depth of reasoning chains is analyzed by prediction group; no user study is reported.
+R4-36,ReasonAlign,none,,,none,no,no,no,"Reasoning transparency is claimed (fixpoint/backtracking statistics reported), but no per-decision justification is exposed or evaluated."
+121,MUT2KG,none,,,none,no,no,no,Fully automated annotation; no per-annotation justification exposed.
+R4-12,DMatch,native,MRL logical preconditions and chase derivation,pair,example,no,no,no,The logical precondition of an MRL is explicitly described as an explanation of the ML prediction.
+R4-27,HMatch,native,link keys explaining and regenerating identity links,mapping,quantitative proxy,no,no,no,"Link keys are evaluated through precision, coverage and regeneration of embedding-produced identity links."

@@ -1,0 +1,6 @@
+macro_theme,n_identified,pct_identified,n_included,pct_included,difference_pp
+Semantic integration & ontology matching,1953,72.1,25,92.6,20.5
+Deep learning & neural architectures,1785,65.9,17,63.0,-2.9
+XAI & symbolic reasoning,1809,66.8,14,51.9,-14.9
+NLP & language models,1682,62.1,19,70.4,8.3
+Knowledge graphs & neuro-symbolic,1158,42.8,17,63.0,20.2
