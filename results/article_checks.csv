@@ -16,7 +16,7 @@ fig:prisma,surveys kept for citation searching only,59,59,yes
 fig:prisma,Reports sought for retrieval,256,256,yes
 fig:prisma,Reports not retrieved,12,12,yes
 fig:prisma,Reports assessed for eligibility,244,244,yes
-fig:prisma,Reports excluded,221,221,yes
+fig:prisma,Reports excluded,219,219,yes
 fig:prisma,Studies included via databases,23,23,yes
 fig:prisma,Records identified from other methods,51,51,yes
 fig:prisma,Other methods: reports sought,20,20,yes
@@ -24,6 +24,17 @@ fig:prisma,Other methods: reports assessed,20,20,yes
 fig:prisma,Other methods: reports excluded,16,16,yes
 fig:prisma,Other methods: studies included,4,4,yes
 fig:prisma,Studies included in review,27,27,yes
+fig:prisma,Reports of included studies,29,29,yes
+fig:prisma,"reports excluded, databases: I4-B",92,92,yes
+fig:prisma,"reports excluded, databases: I4-A",81,81,yes
+fig:prisma,"reports excluded, databases: I2",21,21,yes
+fig:prisma,"reports excluded, databases: I5",12,12,yes
+fig:prisma,"reports excluded, databases: E3-E5",7,7,yes
+fig:prisma,"reports excluded, databases: full text not in a working language",6,6,yes
+fig:prisma,"reports excluded, other methods: I2",8,8,yes
+fig:prisma,"reports excluded, other methods: I4-B",3,3,yes
+fig:prisma,"reports excluded, other methods: I4-A",2,2,yes
+fig:prisma,"reports excluded, other methods: E3-E5",3,3,yes
 3.3,studies whose stage and function were coded,27,27,yes
 4.1,task family: Entity and knowledge-graph alignment,13,13,yes
 4.1,task family: Ontology matching and revision,9,9,yes
