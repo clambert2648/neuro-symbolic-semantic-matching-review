@@ -52,18 +52,27 @@ primary, 40 complementary, 20 other methods).
 | `detail` | short justification |
 | `qa_q1`-`qa_q6`, `qa_total` | quality scores (Yes 1, Partly 0.5, No 0; Q6 not counted) |
 
-Values of `basis` for exclusions:
+Values of `basis` for exclusions. Each excluded report has one, the criterion on which
+its exclusion rests under the final criteria (`protocol/protocol.md`, section 3);
+`detail` names a second failed criterion where there is one.
 
 | Basis | Meaning |
 |---|---|
-| `quality score below 3/5` | failed the quality threshold |
-| `former I4-strict criterion` | excluded before the I4 revision because the symbolic component was not active at inference; QA was not scored (recorded as 0 in the working files) |
-| `revised I4 audit (I4-A / I2 / I5)` | excluded when the retained studies were re-checked under the revised I4 |
-| `supervisor validation` | excluded at the second author's validation of the retained studies |
-| `full text not in a working language` | full text only in Chinese |
-| `I4-A`, `I4-B`, `I2`, `I5` | complementary batch: failed condition A, condition B (passive symbolic role), task, or evaluation |
+| `I4-A` | no real neural component or no real symbolic component |
+| `I4-B` | symbolic component present but passive (input, verbalised or flattened structure) |
+| `I2` | no matching task between distinct sources |
+| `I5` | evaluation without a named dataset, a standard matching metric or an external baseline |
+| `E3`, `E4`, `E5` | no algorithmic method; no empirical evaluation; document type |
+| `full text not in a working language` | full text only in Chinese (six reports) or Portuguese (one) |
 | `companion report consolidated` | another report of a study already assessed |
-| `excluded at full text (E3/E4/E5)` | citation-searching reports |
+
+Quality scores are given for the reports that were scored before their exclusion. No
+report is excluded on the quality score alone: the four that scored below 3/5 (`082`,
+`115`, `786`, `971`) also fail an eligibility criterion, which is their `basis`.
+
+The reports first excluded under the former I4-strict criterion (175), at the second
+author's validation (6) or below the quality threshold (4) were re-assessed against the
+final criteria in November 2026 (`protocol/protocol.md`, section 9). No outcome changed.
 
 ## `extraction/`
 
