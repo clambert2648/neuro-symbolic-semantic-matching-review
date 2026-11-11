@@ -66,7 +66,7 @@ python scripts/06_results.py          # every count of the article, Table 6, Tab
 
 `06_results.py` recomputes the counts reported in the text, the flow diagram, Table 6 and
 Table A.1 from the data files and writes the comparison to `results/article_checks.csv`
-(109 values, all reproduced). Reasons for full-text exclusions are recorded per report in
+(120 values, all reproduced). Reasons for full-text exclusions are recorded per report in
 `data/screening/full_text_assessment.csv` and tallied in `results/fulltext_exclusions.csv`.
 
 The three other steps need the raw database exports in `data/raw/`, which are not

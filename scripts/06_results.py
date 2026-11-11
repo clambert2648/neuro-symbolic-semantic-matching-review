@@ -55,8 +55,10 @@ def check(section, claim, article, computed):
 prim, comp = records[records.wave == "primary"], records[records.wave == "complementary"]
 ft_db = fulltext[fulltext.route.str.startswith("database")]
 ft_other = fulltext[~fulltext.route.str.startswith("database")]
-# R4-14 (full text only in Chinese) is counted as "not retrieved" in the article's flow diagram.
-not_retrieved_db = (ft_db.outcome == "not retrieved").sum() + (ft_db.report_id == "R4-14").sum()
+not_retrieved_db = (ft_db.outcome == "not retrieved").sum()
+# A study can have more than one report: `basis` is "included" for its main report and
+# "companion report" for an additional report of the same study.
+is_study = fulltext.basis == "included"
 flow = {
     "Records identified from databases": ident["records identified"] + ident["R4 records identified"],
     "  primary queries R1-R3": ident["records identified"],
@@ -76,17 +78,18 @@ flow = {
     "Reports sought for retrieval": (records.ta_decision == "include").sum(),
     "Reports not retrieved": not_retrieved_db,
     "Reports assessed for eligibility": (records.ta_decision == "include").sum() - not_retrieved_db,
-    "Reports excluded": ((ft_db.outcome == "excluded") & (ft_db.report_id != "R4-14")).sum(),
-    "Studies included via databases": (ft_db.outcome == "included").sum(),
+    "Reports excluded": (ft_db.outcome == "excluded").sum(),
+    "Studies included via databases": (is_study & fulltext.route.str.startswith("database")).sum(),
     "Records identified from other methods": len(citations),
     "Other methods: reports sought": (citations.ta_decision == "include").sum(),
     "Other methods: reports assessed": len(ft_other),
     "Other methods: reports excluded": (ft_other.outcome == "excluded").sum(),
-    "Other methods: studies included": (ft_other.outcome == "included").sum(),
-    "Studies included in review": (fulltext.outcome == "included").sum(),
+    "Other methods: studies included": (is_study & ~fulltext.route.str.startswith("database")).sum(),
+    "Studies included in review": is_study.sum(),
+    "Reports of included studies": (fulltext.outcome == "included").sum(),
 }
-ARTICLE_FLOW = [3224, 2270, 954, 516, 106, 274, 94, 40, 2, 2708, 2452, 1613, 780, 59, 256, 12, 244, 221, 23,
-            51, 20, 20, 16, 4, 27]
+ARTICLE_FLOW = [3224, 2270, 954, 516, 106, 274, 94, 40, 2, 2708, 2452, 1613, 780, 59, 256, 12, 244, 219, 23,
+            51, 20, 20, 16, 4, 27, 29]
 pd.DataFrame({"step": list(flow), "n": [int(v) for v in flow.values()], "article": ARTICLE_FLOW}).to_csv(
     RESULTS / "prisma_flow.csv", index=False)
 for (step, n), fig in zip(flow.items(), ARTICLE_FLOW):
@@ -96,6 +99,18 @@ excluded = fulltext[fulltext.outcome == "excluded"].copy()
 excluded["stream"] = excluded.route.map(lambda r: "databases" if r.startswith("database") else "other methods")
 reasons = excluded.groupby(["stream", "basis"]).size().rename("n").reset_index()
 reasons.to_csv(RESULTS / "fulltext_exclusions.csv", index=False)
+# Exclusion reasons as grouped in the two "Reports excluded" boxes of the flow diagram.
+box = excluded.basis.replace({"E3": "E3-E5", "E4": "E3-E5", "E5": "E3-E5"})
+ARTICLE_REASONS = {
+    "databases": {"I4-B": 92, "I4-A": 81, "I2": 21, "I5": 12, "E3-E5": 7,
+                  "full text not in a working language": 6},
+    "other methods": {"I2": 8, "I4-B": 3, "I4-A": 2, "E3-E5": 3},
+}
+for stream, expected in ARTICLE_REASONS.items():
+    counts = box[excluded.stream == stream].value_counts()
+    assert set(counts.index) == set(expected), (stream, sorted(counts.index))
+    for basis, n in expected.items():
+        check("fig:prisma", f"reports excluded, {stream}: {basis}", n, int(counts[basis]))
 
 # --------------------------------------------------------------------------- Section 3.4 / 4.1
 check("3.3", "studies whose stage and function were coded", 27, len(df))

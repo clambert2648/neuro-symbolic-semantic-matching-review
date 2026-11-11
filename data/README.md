@@ -63,8 +63,13 @@ its exclusion rests under the final criteria (`protocol/protocol.md`, section 3)
 | `I2` | no matching task between distinct sources |
 | `I5` | evaluation without a named dataset, a standard matching metric or an external baseline |
 | `E3`, `E4`, `E5` | no algorithmic method; no empirical evaluation; document type |
-| `full text not in a working language` | full text only in Chinese (six reports) or Portuguese (one) |
-| `companion report consolidated` | another report of a study already assessed |
+| `full text not in a working language` | full text only in Chinese (five reports) or Portuguese (one) |
+
+Other values of `basis`: `included` marks the main report of each of the 27 studies and
+`companion report` an additional report of an included study (two reports; their evidence
+is used, they are not separate studies). For reports not retrieved, `basis` gives the
+cause: inaccessible, withdrawn, or full text only in Chinese (two reports that could not
+be obtained in a readable version).
 
 Quality scores are given for the reports that were scored before their exclusion. No
 report is excluded on the quality score alone: the four that scored below 3/5 (`082`,
