@@ -81,8 +81,8 @@ final criteria in November 2026 (`protocol/protocol.md`, section 9). No outcome 
 
 ## `extraction/`
 
-One row per included study (27), in the order of Table A.1 of the article. Codes and
-rules: [`protocol/coding_guide.md`](../protocol/coding_guide.md).
+One row per included study (27), in the order of Table A.1 of the article; `results.csv`
+covers 16 of them. Codes and rules: [`protocol/coding_guide.md`](../protocol/coding_guide.md).
 
 | File | Content |
 |---|---|
@@ -92,6 +92,7 @@ rules: [`protocol/coding_guide.md`](../protocol/coding_guide.md).
 | `rq2_audit.csv` | negative audit for RQ2: expert feedback loop, explanation user study, human-effort measure, with the evidence for each "no" |
 | `context.csv` | C3: task family, domain, multilinguality, languages, benchmarks, heterogeneity types, external knowledge source (D2), code and data availability |
 | `ablation.csv` | evaluation practices: ablation reported, what is varied, whether a control switches off the dominant symbolic operation |
+| `results.csv` | reported results of 16 studies: the 11 whose evaluation switches off the dominant symbolic operation (`group` = `isolating`) and the 5 with a native explanation (`group` = `native explanation`). One headline comparison per study (dataset, metric, result, comparator, gap in percentage points), further results, table and page in the paper, and a note where the comparison needs care |
 
 Two studies reinstated after the I4 revision had their scores reset to 0 at the earlier
 exclusion. SLHCat (`828`) keeps the scores it received before that exclusion (4/5; Q6 was
